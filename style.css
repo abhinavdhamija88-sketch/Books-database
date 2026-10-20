@@ -4,3 +4,5 @@
 .bookshelf-heading{font:600 clamp(18px,3vw,28px)/1.4 "DM Sans",sans-serif;letter-spacing:2px;color:var(--ink);margin:0 0 20px}.category-tag{font-size:10px;color:#64735d;margin:0 0 12px}.toolbar select{max-width:100%}
 
 .account,.actions{display:flex;align-items:center;gap:10px}.account{font-size:11px}#notice{padding:14px;background:#eee5d1;border-radius:6px;font-size:13px;line-height:1.6}dialog input:not([type=checkbox]){width:100%;margin-top:8px;padding:10px;border:1px solid var(--line);border-radius:5px;background:white}#edit-error,#login-error{color:#a03030}#delete-book{margin-top:12px;color:#a03030;width:100%}[hidden]{display:none!important}@media(max-width:700px){header{gap:12px}.account{flex-wrap:wrap;justify-content:flex-end}.account #account-status{display:none}.actions{flex-direction:column;align-items:flex-end}}
+
+#forgot-password{margin-top:14px;width:100%;border:0;text-decoration:underline}#password-reset-error{color:#a03030}#reset-request-status{color:var(--ink)}

@@ -1,6 +1,6 @@
-# Draft book categories
+# Book categories
 
-Broad browsing categories based on recognizable titles; these are suggestions, not verified catalog metadata. Ambiguous titles remain To review. Category choices can be edited in the browser, or sent back for publication to the shared library.
+Broad browsing categories chosen for this reading library. Owners can adjust them in the book editor.
 
 ## Fantasy & sci-fi
 
@@ -26,6 +26,7 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - Seven Husbands (2024)
 - House of Eve (2024)
 - Stationery Shop (2024)
+- Vera (2024)
 - Personal Librarian (2024)
 - Rose Code (2024)
 - Berry Pickers (2024)
@@ -56,6 +57,7 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - Briar Club (2026)
 - Emma Lion V (2026)
 - Emma Lion VI (2026)
+- Land (2026)
 
 ## Literary & contemporary fiction
 
@@ -86,6 +88,7 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - Wedding People (2025)
 - We All Live Here (2025)
 - Correspondent (2025)
+- Dark Wild Shore (2025)
 - Road to Tender Hearts (2025)
 - Atmosphere (2025)
 - Bright Years (2025)
@@ -113,10 +116,14 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - You Could Make This Place Beautiful (2023)
 - Nanaville (2024)
 - Three Years a Traveler (2024)
+- Wanted: Toddler Assistant (2024)
 - A Well-Trained Wife (2024)
 - Between Two Kingdoms (2024)
 - Finding Freedom (2024)
 - Mamma Love (2024)
+- Strangers (2026)
+- Every Beautiful Mile (2026)
+- Good Joy Bad Joy (2026)
 
 ## Mystery & thriller
 
@@ -139,6 +146,7 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - I Found You (2025)
 - Middletide (2025)
 - Retirement Plan (2025)
+- Between the Devil and the Blue Sea (2025)
 - Missing Half (2025)
 - Family Upstairs (2025)
 - Safekeep (2025)
@@ -149,6 +157,7 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - Listen for the Lie (2026)
 - Called in Dead (2026)
 - Mad Mabel (2026)
+- Whistler (2026)
 - Hunter (2026)
 - Ordinary Grace (2026)
 
@@ -169,15 +178,3 @@ Broad browsing categories based on recognizable titles; these are suggestions, n
 - Broken Country (2025)
 - Great Big Beautiful Life (2025)
 - Let’s Make a Scene (2025)
-
-## To review
-
-- Vera (2024)
-- Wanted: Toddler Assistant (2024)
-- Dark Wild Shore (2025)
-- Between the Devil and the Blue Sea (2025)
-- Strangers (2026)
-- Every Beautiful Mile (2026)
-- Good Joy Bad Joy (2026)
-- Whistler (2026)
-- Land (2026)

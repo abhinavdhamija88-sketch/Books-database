@@ -367,7 +367,7 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Historical fiction"
   },
   {
     "id": "2024-12",
@@ -627,7 +627,7 @@
     "favorite": false,
     "format": "audio",
     "notes": "",
-    "category": "To review"
+    "category": "Memoir"
   },
   {
     "id": "2024-38",
@@ -977,7 +977,7 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Literary & contemporary fiction"
   },
   {
     "id": "2025-23",
@@ -1037,7 +1037,7 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Mystery & thriller"
   },
   {
     "id": "2025-29",
@@ -1397,7 +1397,7 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Memoir"
   },
   {
     "id": "2026-19",
@@ -1427,7 +1427,7 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Memoir"
   },
   {
     "id": "2026-22",
@@ -1457,7 +1457,7 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Memoir"
   },
   {
     "id": "2026-25",
@@ -1497,7 +1497,7 @@
     "favorite": false,
     "format": "print",
     "notes": "!!",
-    "category": "To review"
+    "category": "Mystery & thriller"
   },
   {
     "id": "2026-29",
@@ -1557,6 +1557,6 @@
     "favorite": false,
     "format": "print",
     "notes": "",
-    "category": "To review"
+    "category": "Historical fiction"
   }
 ]

@@ -18,7 +18,7 @@ The app builds to dist/ and serves port 3000 (`PORT` overrides it). Netlify runs
 
 Follow SUPABASE_SETUP.md for database setup, import, owner access, and Netlify configuration. Set SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY at build time. Use only a public publishable/anon key, never an administrative key. With Supabase configured, visitors can browse; authorized owners can add/edit/delete. SQL row-level security enforces access independently of the UI. Browser-only edits do not override shared records.
 
-Without either variable, the app remains a clearly labeled browser-local demo. Setting only one variable fails the build. New years are discovered from the library automatically. A future private mode and in-app password recovery are not implemented. Refresh to see changes made by another device.
+Without either variable, the app remains a clearly labeled browser-local demo. Setting only one variable fails the build. New years are discovered from the library automatically. A future private mode is not implemented. Password recovery is available through Forgot password? after configuring Supabase redirect URLs and email delivery (see SUPABASE_SETUP.md). Refresh to see changes made by another device.
 
 ## Deployment
 

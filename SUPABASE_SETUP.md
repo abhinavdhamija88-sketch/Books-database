@@ -12,8 +12,25 @@ The website keeps its existing Netlify address. Complete these steps in order; n
 
 ## Maintenance and recovery
 
-Pam can add books and update title, year, format, category, rating, favorites, or notes. Delete requires confirmation. The filters automatically include new years. Export library downloads all currently loaded shared records as JSON; keep backups periodically. Password resets for this first version are handled by the Supabase project administrator; there is no in-app recovery flow yet. Never place database admin keys in frontend configuration.
+Pam can add books and update title, year, format, category, rating, favorites, or notes. Delete requires confirmation. The filters automatically include new years. Export library downloads all currently loaded shared records as JSON; keep backups periodically. Password resets are available through Owner sign in → Forgot password? after the URL and email-delivery setup below. Never place database admin keys in frontend configuration.
 
 Old browser-only edits are not automatically imported into shared storage. Export any important old edits before enabling cloud mode, and apply them with the owner account afterward. Original 156 seed records are already included. Changes are fetched when the page loads; other viewers can refresh to see new edits. Simultaneous owner edits use last-write-wins behavior.
 
 The library is intentionally public. Making it private later requires changing database read policies and removing the public static books.json seed, as well as the viewing flow. Hiding a UI element alone does not make it private.
+
+## Password resets from the website
+
+Owners can use Owner sign in → Forgot password?, enter their email, and open the emailed link. The link signs them into a recovery session and opens the new-password form. After they save, subsequent sign-ins use the new app password. The email-account password is never requested. Invalid/expired links prompt the user to request another email.
+
+In Supabase Authentication → URL Configuration:
+
+- Set Site URL to `https://capable-swan-758c85.netlify.app/`.
+- Add `https://capable-swan-758c85.netlify.app/?reset=1` to Redirect URLs and save. If the site address changes, update these values as well. The app uses its current origin for recovery, so another deployed hostname must also be allowed explicitly.
+
+Email delivery must be configured for Pam's address. Supabase's default sender restricts recipients to project team members and is rate limited; use custom SMTP under Authentication email settings for reliable delivery to an owner outside that team. Provider SMTP credentials belong only in Supabase, never Netlify's public app variables or source files. See https://supabase.com/docs/guides/auth/auth-smtp .
+
+Test delivery with Pam's actual address, open the link, set a new password, sign out, and sign in with that password. Local browser tests use simulated Supabase responses; they do not validate production email delivery or the project's redirect configuration. An administrator can help recover the account through Supabase if email delivery is not yet configured.
+
+## Category update
+
+The nine original To review entries now have assigned categories. Visitors see the categories immediately; the first signed-in owner visit persists the replacements to Supabase. Only rows still marked To review are changed, preserving owner edits to other categories. New-book forms default to Literary & contemporary fiction and offer real categories only.
