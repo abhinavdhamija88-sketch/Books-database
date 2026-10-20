@@ -1,31 +1,25 @@
 # Pam’s reading room
 
-A responsive prototype containing 156 reading entries from 2023–2026.
+A responsive reading library with 156 initial entries, search, exact half-star rating filters, category/year/format filters, rating sorting, favorites, and JSON export. Categories are draft suggestions listed in CATEGORIES.md.
 
 ## Run
 
-Requires Node.js 22 or later. No dependencies or credentials are needed.
+Node.js 22+:
 
 ```sh
+npm ci
+npm test
 npm start
 ```
 
-The server listens on port 3000 (override with `PORT`). Run `npm test` for import, sorting, and filtering checks.
+The app builds to dist/ and serves port 3000 (`PORT` overrides it). Netlify runs `npm run build` and publishes dist/. Only browser assets are served. Fonts use Google Fonts with local fallbacks. Book graphics are decorative typography.
 
-## Current capabilities
+## Shared library
 
-Search, year/rating/format filters, alphabetical sorting ignoring articles, editable half-star ratings and notes, extra favorites, and JSON export. Book artwork is decorative typography rather than official covers. Fonts use Google Fonts with local fallbacks.
+Follow SUPABASE_SETUP.md for database setup, import, owner access, and Netlify configuration. Set SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY at build time. Use only a public publishable/anon key, never an administrative key. With Supabase configured, visitors can browse; authorized owners can add/edit/delete. SQL row-level security enforces access independently of the UI. Browser-only edits do not override shared records.
 
-Edits live in browser local storage and are not shared across devices. Export creates a JSON backup. This prototype does not yet implement owner authentication, shared database storage, deployment, privacy controls, or installable/offline app support. Add shared persistence and owner authorization before publishing an editable shared library. Public access can then be paired with optional private library access.
+Without either variable, the app remains a clearly labeled browser-local demo. Setting only one variable fails the build. New years are discovered from the library automatically. A future private mode and in-app password recovery are not implemented. Refresh to see changes made by another device.
 
-Some supplied titles are abbreviated or ambiguous and remain provisional. Data is in books.json; authors are not required.
+## Deployment
 
-## Netlify demo deployment
-
-Import this GitHub repository into Netlify and use the `main` branch. The included netlify.toml sets the build command and publishes only the five browser assets from dist/. No environment variables are required. Netlify provides a public HTTPS address after deployment; later pushes redeploy automatically. Visitors can browse the seeded library, and their edits remain local to their own browser.
-
-## Maintaining the library
-
-Categories are draft suggestions; CATEGORIES.md lists the complete grouping for review. Filter by exact whole or half-star rating, category, year, or format; sort by title or rating. Click a book to edit its rating, category, favorite badge, or notes locally. Export JSON before clearing browser data or moving devices. Edits and categories in local storage override later published values for those fields.
-
-For shared updates today, send new entries (title, year, rating, format, optional category/notes) or corrections to the project maintainer, who updates books.json while retaining existing IDs, runs npm test, and pushes main. Netlify redeploys automatically. Do not put credentials in the public site. Independent owner editing from multiple devices requires an authenticated shared database; this is not implemented by the static demo.
+Pushes to main trigger the connected Netlify site. The address remains https://capable-swan-758c85.netlify.app/ unless renamed in Netlify. Database configuration and live authentication must be validated in the actual Supabase project before claiming shared setup is complete.
