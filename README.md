@@ -1,4 +1,4 @@
-# The Reading Room
+# Pam’s reading room
 
 A responsive prototype containing 156 reading entries from 2023–2026.
 
