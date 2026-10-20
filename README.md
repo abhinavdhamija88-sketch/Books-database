@@ -23,3 +23,9 @@ Some supplied titles are abbreviated or ambiguous and remain provisional. Data i
 ## Netlify demo deployment
 
 Import this GitHub repository into Netlify and use the `main` branch. The included netlify.toml sets the build command and publishes only the five browser assets from dist/. No environment variables are required. Netlify provides a public HTTPS address after deployment; later pushes redeploy automatically. Visitors can browse the seeded library, and their edits remain local to their own browser.
+
+## Maintaining the library
+
+Categories are draft suggestions; CATEGORIES.md lists the complete grouping for review. Filter by exact whole or half-star rating, category, year, or format; sort by title or rating. Click a book to edit its rating, category, favorite badge, or notes locally. Export JSON before clearing browser data or moving devices. Edits and categories in local storage override later published values for those fields.
+
+For shared updates today, send new entries (title, year, rating, format, optional category/notes) or corrections to the project maintainer, who updates books.json while retaining existing IDs, runs npm test, and pushes main. Netlify redeploys automatically. Do not put credentials in the public site. Independent owner editing from multiple devices requires an authenticated shared database; this is not implemented by the static demo.
