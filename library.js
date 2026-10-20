@@ -1,0 +1,2 @@
+export const sortTitle=title=>title.replace(/^(the|an|a)\s+/i,'');
+export function selectBooks(books,{search='',year='',rating='',format='',favorites=false}={}){return books.filter(b=>(!search||b.title.toLowerCase().includes(search.toLowerCase()))&&(!year||b.year===Number(year))&&(!rating||b.rating>=Number(rating))&&(!format||b.format===format)&&(!favorites||b.favorite)).sort((a,b)=>sortTitle(a.title).localeCompare(sortTitle(b.title))||b.year-a.year);}

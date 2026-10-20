@@ -1,0 +1,6 @@
+[build]
+  command = "mkdir -p dist && cp index.html style.css app.js library.js books.json dist/"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"

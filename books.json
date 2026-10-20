@@ -1,0 +1,1406 @@
+[
+  {
+    "id": "2023-1",
+    "title": "Very Merry Meet Cute",
+    "year": 2023,
+    "rating": 1.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-2",
+    "title": "Lillian Boxfish",
+    "year": 2023,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-3",
+    "title": "Horse",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-4",
+    "title": "The Henna Artist",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-5",
+    "title": "Lessons in Chemistry",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-6",
+    "title": "Age of Vice",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-7",
+    "title": "The Housemaid",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-8",
+    "title": "This Tender Land",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-9",
+    "title": "Hello Beautiful",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-10",
+    "title": "Pineapple Street",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-11",
+    "title": "You Should Talk to Someone",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-12",
+    "title": "The Invisible Life of Addie LaRue",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-13",
+    "title": "Lucy by the Sea",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-14",
+    "title": "Untamed",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-15",
+    "title": "Deacon King Kong",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-16",
+    "title": "The Dutch House",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-17",
+    "title": "Crying in H Mart",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-18",
+    "title": "Hung the Moon",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-19",
+    "title": "The Worries of Mags Munroe",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-20",
+    "title": "Growing Wild in the Shade",
+    "year": 2023,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2023-21",
+    "title": "Remarkably Bright Creatures",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-22",
+    "title": "You Could Make This Place Beautiful",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-23",
+    "title": "None of This Is True",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": "5 because of audio"
+  },
+  {
+    "id": "2023-24",
+    "title": "Tom Lake",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": "Because of ending and audio"
+  },
+  {
+    "id": "2023-25",
+    "title": "Passing",
+    "year": 2023,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2023-26",
+    "title": "A Place for Us",
+    "year": 2023,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-1",
+    "title": "Bared to You",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-2",
+    "title": "Seven Husbands",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-3",
+    "title": "Our Missing Hearts",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-4",
+    "title": "The Good Sister",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-5",
+    "title": "Nanaville",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-6",
+    "title": "The Midnight Library",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-7",
+    "title": "The House of Eve",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-8",
+    "title": "Wellness",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-9",
+    "title": "Wrong Place Wrong Time",
+    "year": 2024,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-10",
+    "title": "The Stationery Shop",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-11",
+    "title": "Vera",
+    "year": 2024,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-12",
+    "title": "The Personal Librarian",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-13",
+    "title": "The Rose Code",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-14",
+    "title": "The Berry Pickers",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-15",
+    "title": "The Women",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-16",
+    "title": "Demon Copperhead",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-17",
+    "title": "The Wife",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-18",
+    "title": "Small Things Like These",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-19",
+    "title": "The Five-Star Weekend",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-20",
+    "title": "The Heaven & Earth Grocery Store",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-21",
+    "title": "Vera Wong’s Teahouse",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-22",
+    "title": "Go as a River",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-23",
+    "title": "Another Brooklyn",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-24",
+    "title": "Long Island",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-25",
+    "title": "Honor",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-26",
+    "title": "Under One Roof",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-27",
+    "title": "The House on Mango Street",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-28",
+    "title": "The Marriage Portrait",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-29",
+    "title": "Love & Saffron",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-30",
+    "title": "Little Secrets",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-31",
+    "title": "Evvie Drake Starts Over",
+    "year": 2024,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-32",
+    "title": "Happiness Falls",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-33",
+    "title": "Iona Iverson’s Commuting",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-34",
+    "title": "First Lie Wins",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-35",
+    "title": "The Boys in the Boat",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-36",
+    "title": "Three Years a Traveler",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-37",
+    "title": "Wanted: Toddler Assistant",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-38",
+    "title": "A Well-Trained Wife",
+    "year": 2024,
+    "rating": 1.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-39",
+    "title": "Between Two Kingdoms",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-40",
+    "title": "Tress of the Emerald Sea",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-41",
+    "title": "The House of Doors",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-42",
+    "title": "Gone Tonight",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-43",
+    "title": "Finding Freedom",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-44",
+    "title": "The Goddess of Warsaw",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-45",
+    "title": "Mrs. Quinn’s Rise to Fame",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-46",
+    "title": "Sylvia’s Second Act",
+    "year": 2024,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "audio",
+    "notes": ""
+  },
+  {
+    "id": "2024-47",
+    "title": "The Heiress",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-48",
+    "title": "Mamma Love",
+    "year": 2024,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-49",
+    "title": "December Darling",
+    "year": 2024,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2024-50",
+    "title": "All Fours",
+    "year": 2024,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-1",
+    "title": "Nightwatching",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-2",
+    "title": "A Home for Holidays",
+    "year": 2025,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-3",
+    "title": "The Good Part",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-4",
+    "title": "The God of the Woods",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-5",
+    "title": "The Frozen River",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-6",
+    "title": "The People We Keep",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-7",
+    "title": "Tell Me Everything",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-8",
+    "title": "Blue Sisters",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-9",
+    "title": "All the Beauty in the World",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-10",
+    "title": "The Thursday Murder Club",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-11",
+    "title": "The Wedding People",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-12",
+    "title": "We Used to Live Here",
+    "year": 2025,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-13",
+    "title": "The Nature of Fragile Things",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-14",
+    "title": "We All Live Here",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-15",
+    "title": "The Push",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-16",
+    "title": "First-Time Caller",
+    "year": 2025,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-17",
+    "title": "Broken Country",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-18",
+    "title": "James",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-19",
+    "title": "I Found You",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-20",
+    "title": "The Correspondent",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-21",
+    "title": "Middletide",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-22",
+    "title": "Dark Wild Shore",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-23",
+    "title": "The Road to Tender Hearts",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": "🤣"
+  },
+  {
+    "id": "2025-24",
+    "title": "The Retirement Plan",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": "😂"
+  },
+  {
+    "id": "2025-25",
+    "title": "Atmosphere",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-26",
+    "title": "The Stolen Life of Colette Marceau",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-27",
+    "title": "The Bright Years",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-28",
+    "title": "Between the Devil and the Blue Sea",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-29",
+    "title": "Great Big Beautiful Life",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-30",
+    "title": "These Summer Storms",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-31",
+    "title": "My Friends",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-32",
+    "title": "The Missing Half",
+    "year": 2025,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-33",
+    "title": "Let’s Make a Scene",
+    "year": 2025,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-34",
+    "title": "The Family Upstairs",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-35",
+    "title": "Real Americans",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-36",
+    "title": "The Safekeep",
+    "year": 2025,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-37",
+    "title": "The 6:20 Man",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-38",
+    "title": "The Last Mrs. Parrish",
+    "year": 2025,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-39",
+    "title": "Year of Wonders",
+    "year": 2025,
+    "rating": 5,
+    "favorite": true,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-40",
+    "title": "The Book of Lost Names",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-41",
+    "title": "Long Bright River",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-42",
+    "title": "Long Coast Road",
+    "year": 2025,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-43",
+    "title": "Time of the Child",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-44",
+    "title": "The River Is Waiting",
+    "year": 2025,
+    "rating": 2.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-45",
+    "title": "Strangers in Time",
+    "year": 2025,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2025-46",
+    "title": "What the Wind Knows",
+    "year": 2025,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-1",
+    "title": "Yellow Wife",
+    "year": 2026,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-2",
+    "title": "The One",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-3",
+    "title": "Women Platform Two",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-4",
+    "title": "Journals of Emma Lion",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-5",
+    "title": "Emma Lion II",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-6",
+    "title": "Emma Lion III",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-7",
+    "title": "Project Hail Mary",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-8",
+    "title": "Heart the Lover",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-9",
+    "title": "Emma Lion IV",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-10",
+    "title": "The Guncle",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-11",
+    "title": "Buckeye",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": "!"
+  },
+  {
+    "id": "2026-12",
+    "title": "The Widow",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-13",
+    "title": "Theo of Golden",
+    "year": 2026,
+    "rating": 5,
+    "favorite": true,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-14",
+    "title": "Mary Jane",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-15",
+    "title": "John of John",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-16",
+    "title": "The Briar Club",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-17",
+    "title": "How to Read a Book",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-18",
+    "title": "Strangers",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-19",
+    "title": "Listen for the Lie",
+    "year": 2026,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-20",
+    "title": "Nothing to See Here",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": "😂"
+  },
+  {
+    "id": "2026-21",
+    "title": "Every Beautiful Mile",
+    "year": 2026,
+    "rating": 3.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-22",
+    "title": "Things We Never Say",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-23",
+    "title": "Called in Dead",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-24",
+    "title": "Good Joy Bad Joy",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-25",
+    "title": "Writers & Lovers",
+    "year": 2026,
+    "rating": 3.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-26",
+    "title": "The Storied Life of A. J. Fikry",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-27",
+    "title": "Mad Mabel",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-28",
+    "title": "Whistler",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": "!!"
+  },
+  {
+    "id": "2026-29",
+    "title": "The Hunter",
+    "year": 2026,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-30",
+    "title": "Good People",
+    "year": 2026,
+    "rating": 4.5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-31",
+    "title": "Ordinary Grace",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-32",
+    "title": "Emma Lion V",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-33",
+    "title": "Emma Lion VI",
+    "year": 2026,
+    "rating": 5,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  },
+  {
+    "id": "2026-34",
+    "title": "Land",
+    "year": 2026,
+    "rating": 4.0,
+    "favorite": false,
+    "format": "print",
+    "notes": ""
+  }
+]

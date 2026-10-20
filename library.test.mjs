@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {selectBooks,sortTitle} from './library.js';
+const books=JSON.parse(await readFile(new URL('./books.json',import.meta.url)));
+test('all supplied reading entries are present by year',()=>{assert.equal(books.length,156);for(const [year,count] of [[2023,26],[2024,50],[2025,46],[2026,34]])assert.equal(selectBooks(books,{year}).length,count);});
+test('alphabetical sorting ignores articles',()=>{assert.equal(sortTitle('The Housemaid'),'Housemaid');assert.equal(sortTitle('A Place for Us'),'Place for Us');const sorted=selectBooks(books);for(let i=1;i<sorted.length;i++)assert.ok(sortTitle(sorted[i-1].title).localeCompare(sortTitle(sorted[i].title))<=0);});
+test('filters combine and search ignores case',()=>{const found=selectBooks(books,{search:'TOM LAKE',year:'2023',rating:'5',format:'audio'});assert.equal(found.length,1);assert.equal(found[0].title,'Tom Lake');assert.equal(selectBooks(books,{search:'Tom Lake',format:'print'}).length,0);});
+test('seven stars become five with extra favorite',()=>{const favorites=selectBooks(books,{favorites:true});assert.deepEqual(favorites.map(b=>b.title),['Theo of Golden','Year of Wonders']);assert.ok(favorites.every(b=>b.rating===5));});
+test('half stars and narration notes survive import',()=>{assert.equal(books.find(b=>b.title==='Yellow Wife').rating,4.5);assert.equal(books.find(b=>b.title==='None of This Is True').notes,'5 because of audio');assert.equal(books.find(b=>b.title==='Land').rating,4);});
