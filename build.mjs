@@ -8,5 +8,5 @@ if(key.startsWith('sb_secret_'))throw new Error('Use a publishable key, never a 
 if(key.startsWith('eyJ')){try{const payload=JSON.parse(Buffer.from(key.split('.')[1],'base64url'));if(payload.role!=='anon')throw Error();}catch{throw new Error('Only a publishable or legacy anon key may be exposed to browsers');}}
 await mkdir('dist',{recursive:true});
 await build({entryPoints:['app.js'],outfile:'dist/app.js',bundle:true,format:'esm',minify:true,define:{__SUPABASE_URL__:JSON.stringify(url),__SUPABASE_KEY__:JSON.stringify(key)}});
-for(const name of ['index.html','style.css','books.json'])await copyFile(name,'dist/'+name);
+for(const name of ['index.html','style.css','books.json','kids-books.json'])await copyFile(name,'dist/'+name);
 console.log(url?'Built shared library with Supabase':'Built local demo; Supabase is not configured');

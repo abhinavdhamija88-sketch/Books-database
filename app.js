@@ -1,3 +1,4 @@
+import {setupKidsBooks} from './kids.js';
 import {setupPasswordReset} from './password-reset.js';
 import {CATEGORIES,DEFAULT_CATEGORY,normalizeBook} from './categories.js';
 import {selectBooks} from './library.js';
@@ -63,6 +64,7 @@ async function updateAccount(){
  owner=await isOwner();const {data:{session}}=await cloud.auth.getSession();
  $('sign-in').hidden=!!session;$('sign-out').hidden=!session;$('add-book').hidden=!owner;
  $('account-status').textContent=owner?'Owner access':session?'Browsing access':'A life in books';
+ kidsShelf.updateOwner();
  if(owner&&!categoryMigration){categoryMigration=migrateLegacyCategories().catch(()=>{notice('Categories are displayed, but could not be saved. Refresh while signed in to retry.');});}
  if(categoryMigration)await categoryMigration;
 }
@@ -79,7 +81,8 @@ async function initialize(){
   books=books.map(normalizeBook);refreshOptions();render();
  }catch(error){notice('The library could not load. '+(error.message||'Please refresh to try again.'));$('count').textContent='Library unavailable';$('storage-status').textContent='Connection unavailable';}
 }
+const kidsShelf=setupKidsBooks({getOwner:()=>owner,notice});
 const passwordReset=setupPasswordReset(cloud,notice);
-if(cloud)cloud.auth.onAuthStateChange(event=>{passwordReset.onAuthEvent(event);setTimeout(()=>updateAccount().catch(()=>{owner=false;$('add-book').hidden=true;notice('Could not verify owner access. Please sign in again.');}),0);});
+if(cloud)cloud.auth.onAuthStateChange(event=>{passwordReset.onAuthEvent(event);setTimeout(()=>updateAccount().catch(()=>{owner=false;$('add-book').hidden=true;kidsShelf.updateOwner();notice('Could not verify owner access. Please sign in again.');}),0);});
 await initialize();
 await passwordReset.resume();

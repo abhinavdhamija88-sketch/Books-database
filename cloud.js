@@ -35,3 +35,20 @@ export async function migrateLegacyCategories(){
   if(error)throw error;
  }
 }
+
+export async function loadKidsBooks(){
+ const {data,error}=await cloud.from('kids_books').select('*').order('id').limit(10000);
+ if(error)throw error;
+ return data;
+}
+export async function saveKidsBook(book,isNew){
+ const query=isNew?cloud.from('kids_books').insert(book):cloud.from('kids_books').update(book).eq('id',book.id);
+ const {data,error}=await query.select().single();
+ if(error)throw error;
+ return data;
+}
+export async function deleteKidsBook(id){
+ const {data,error}=await cloud.from('kids_books').delete().eq('id',id).select('id');
+ if(error)throw error;
+ if(data.length!==1)throw new Error('The book was not deleted. Check owner access.');
+}

@@ -1,0 +1,35 @@
+const {test}=require('node:test');
+const assert=require('node:assert/strict');
+const {readFileSync}=require('node:fs');
+const {join}=require('node:path');
+const {PGlite}=require('@electric-sql/pglite');
+test('kids database imports safely and only existing owners can change it',async()=>{
+ const db=new PGlite();
+ try{
+  await db.exec(`create role anon;create role authenticated;create schema auth;create table auth.users(id uuid primary key,email text);create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;grant usage on schema auth to anon,authenticated;grant execute on function auth.uid() to anon,authenticated;insert into auth.users values ('00000000-0000-4000-8000-000000000001','owner@example.test'),('00000000-0000-4000-8000-000000000002','visitor@example.test');`);
+  await db.exec(readFileSync(join(__dirname,'../supabase/setup.sql'),'utf8'));
+  const migration=readFileSync(join(__dirname,'../supabase/kids-books.sql'),'utf8');
+  await db.exec(migration);await db.exec(migration);
+  assert.equal((await db.query('select count(*)::int as n from public.kids_books')).rows[0].n,67);
+  assert.equal((await db.query('select count(*)::int as n from public.books')).rows[0].n,156);
+  assert.equal((await db.query("select author from public.kids_books where title='Honeybee'")).rows[0].author,'');
+  await db.exec("update public.kids_books set notes='Owner note' where id='kids-001'");await db.exec(migration);
+  assert.equal((await db.query("select notes from public.kids_books where id='kids-001'")).rows[0].notes,'Owner note');
+  await db.exec(`insert into public.library_owners values('00000000-0000-4000-8000-000000000001');set role anon;`);
+  assert.equal((await db.query('select count(*)::int as n from public.kids_books')).rows[0].n,67);
+  await assert.rejects(()=>db.exec("insert into public.kids_books (id,title) values('unauthorized','No')"));
+  await assert.rejects(()=>db.exec("update public.kids_books set title='No' where id='kids-001'"));
+  await db.exec(`reset role;set role authenticated;set request.jwt.claim.sub='00000000-0000-4000-8000-000000000002';`);
+  assert.equal((await db.query("update public.kids_books set title='No' where id='kids-001' returning id")).rows.length,0);
+  assert.equal((await db.query("delete from public.kids_books where id='kids-001' returning id")).rows.length,0);
+  await assert.rejects(()=>db.exec("insert into public.kids_books (id,title) values('unauthorized','No')"));
+  await db.exec(`set request.jwt.claim.sub='00000000-0000-4000-8000-000000000001';`);
+  await db.exec("insert into public.kids_books (id,title) values('owner-book','New kids book')");
+  await db.exec("update public.kids_books set author='Author',recipients=array['First child','Second child'] where id='owner-book'");
+  assert.deepEqual((await db.query("select recipients from public.kids_books where id='owner-book'")).rows[0].recipients,['First child','Second child']);
+  await assert.rejects(()=>db.exec("update public.kids_books set amazon_url='javascript:alert(1)' where id='owner-book'"));
+  await assert.rejects(()=>db.exec("update public.kids_books set title='' where id='owner-book'"));
+  await db.exec("delete from public.kids_books where id='owner-book'");
+  assert.equal((await db.query("select * from public.kids_books where id='owner-book'")).rows.length,0);
+ }finally{await db.close();}
+});

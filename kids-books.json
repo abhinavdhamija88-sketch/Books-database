@@ -1,0 +1,605 @@
+[
+  {
+    "id": "kids-001",
+    "title": "I Promise I’ll Find You",
+    "author": "Heather Ward",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-002",
+    "title": "Alexander and the Terrible, Horrible, No Good, Very Bad Day",
+    "author": "Judith Viorst",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-003",
+    "title": "Edward and the Horse",
+    "author": "Ann Rand",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-004",
+    "title": "Katy and the Big Snow",
+    "author": "Virginia Lee Burton",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-005",
+    "title": "The Little Engine That Could",
+    "author": "Watty Piper",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-006",
+    "title": "What Do You Do With a Chance?",
+    "author": "Kobi Yamada",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-007",
+    "title": "Grumpy Monkey",
+    "author": "Suzanne Lang",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-008",
+    "title": "Click, Clack, Moo: Cows That Type",
+    "author": "Doreen Cronin",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-009",
+    "title": "Chicka Chicka Boom Boom",
+    "author": "Bill Martin Jr. and John Archambault",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-010",
+    "title": "Oh No, George!",
+    "author": "Chris Haughton",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-011",
+    "title": "Don’t Let the Pigeon Drive the Bus!",
+    "author": "Mo Willems",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-012",
+    "title": "What Do You Do With an Idea?",
+    "author": "Kobi Yamada",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-013",
+    "title": "Popsicle Pony",
+    "author": "Jill Stover",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-014",
+    "title": "No, David!",
+    "author": "David Shannon",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-015",
+    "title": "David Gets in Trouble",
+    "author": "David Shannon",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-016",
+    "title": "David Goes to School",
+    "author": "David Shannon",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-017",
+    "title": "Harold and the Purple Crayon",
+    "author": "Crockett Johnson",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-018",
+    "title": "The Snowy Day",
+    "author": "Ezra Jack Keats",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-019",
+    "title": "Duck! Rabbit!",
+    "author": "Amy Krouse Rosenthal",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-020",
+    "title": "Goodnight Moon",
+    "author": "Margaret Wise Brown",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-021",
+    "title": "Elmer",
+    "author": "David McKee",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-022",
+    "title": "Corduroy",
+    "author": "Don Freeman",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-023",
+    "title": "The Rainbow Fish",
+    "author": "Marcus Pfister",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-024",
+    "title": "Magic Boots",
+    "author": "Scott Emerson and Howard Post",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-025",
+    "title": "The Story of Ferdinand",
+    "author": "Munro Leaf",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-026",
+    "title": "Brown Bear, Brown Bear, What Do You See?",
+    "author": "Bill Martin Jr.",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-027",
+    "title": "If You Give a Mouse a Cookie",
+    "author": "Laura Numeroff",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-028",
+    "title": "Where the Wild Things Are",
+    "author": "Maurice Sendak",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-029",
+    "title": "Sheep in a Jeep",
+    "author": "Nancy E. Shaw",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-030",
+    "title": "Sylvester and the Magic Pebble",
+    "author": "William Steig",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-031",
+    "title": "Good Night, Gorilla",
+    "author": "Peggy Rathmann",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-032",
+    "title": "Love You Forever",
+    "author": "Robert Munsch",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-033",
+    "title": "Caps for Sale",
+    "author": "Esphyr Slobodkina",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-034",
+    "title": "Little Star (You Are the Light)",
+    "author": "Lisa Edwards",
+    "illustrator": "Kat Kalindi",
+    "notes": "",
+    "amazon_url": "https://www.amazon.com/dp/0593465210",
+    "recipients": []
+  },
+  {
+    "id": "kids-035",
+    "title": "Llama Llama Jingle Bells",
+    "author": "Anna Dewdney",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-036",
+    "title": "Cuddle Bug",
+    "author": "Nicola Edwards",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-037",
+    "title": "Owl Babies",
+    "author": "Martin Waddell",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-038",
+    "title": "The Girl Who Loved Wild Horses",
+    "author": "Paul Goble",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-039",
+    "title": "Llama Llama Red Pajama",
+    "author": "Anna Dewdney",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-040",
+    "title": "Pancakes!",
+    "author": "Lotta Nieminen",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-041",
+    "title": "Spaghetti!",
+    "author": "Lotta Nieminen",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-042",
+    "title": "Tacos!",
+    "author": "Lotta Nieminen",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-043",
+    "title": "Whistle for Willie",
+    "author": "Ezra Jack Keats",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-044",
+    "title": "The Napping House",
+    "author": "Audrey Wood",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-045",
+    "title": "Giraffes Can’t Dance",
+    "author": "Giles Andreae",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-046",
+    "title": "Little Blue Truck’s Christmas",
+    "author": "Alice Schertle",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-047",
+    "title": "Our Little Adventure at Christmas",
+    "author": "Tabitha Paige",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-048",
+    "title": "Bear Stays Up for Christmas",
+    "author": "Karma Wilson",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-049",
+    "title": "Sleep Tight, Very Hungry Caterpillar",
+    "author": "Eric Carle",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-050",
+    "title": "I Love You to the Moon and Back",
+    "author": "Amelia Hepworth",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-051",
+    "title": "Where’s Spot?",
+    "author": "Eric Hill",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-052",
+    "title": "Time for Bed",
+    "author": "Mem Fox",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-053",
+    "title": "The Wide-Mouthed Frog",
+    "author": "Keith Faulkner",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-054",
+    "title": "See You Later, Alligator",
+    "author": "Sally Hopgood",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "https://www.amazon.com/dp/1510704841",
+    "recipients": []
+  },
+  {
+    "id": "kids-055",
+    "title": "Goodnight, Monkey",
+    "author": "Joshua George",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "https://www.amazon.com/dp/1801051224",
+    "recipients": []
+  },
+  {
+    "id": "kids-056",
+    "title": "Claris: The Chicest Mouse in Paris",
+    "author": "Megan Hess",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-057",
+    "title": "Claris: Secret Ballet",
+    "author": "Megan Hess",
+    "illustrator": "",
+    "notes": "Exact title to confirm.",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-058",
+    "title": "Silly Sally",
+    "author": "Audrey Wood",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-059",
+    "title": "Why We Need Aunts",
+    "author": "Gregory E. Lang",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-060",
+    "title": "Strega Nona",
+    "author": "Tomie dePaola",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-061",
+    "title": "Honeybee",
+    "author": "",
+    "illustrator": "",
+    "notes": "Author details pending.",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-062",
+    "title": "Eloise and Friends",
+    "author": "Kay Thompson",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "https://www.amazon.com/dp/1481451588",
+    "recipients": []
+  },
+  {
+    "id": "kids-063",
+    "title": "Olivia",
+    "author": "Ian Falconer",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-064",
+    "title": "Chrysanthemum",
+    "author": "Kevin Henkes",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-065",
+    "title": "Angelina Ballerina",
+    "author": "Katharine Holabird",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-066",
+    "title": "Team Supercrew",
+    "author": "Julie Anne Penn and Darren Penn",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  },
+  {
+    "id": "kids-067",
+    "title": "Little Blue Truck’s Springtime",
+    "author": "Alice Schertle",
+    "illustrator": "",
+    "notes": "",
+    "amazon_url": "",
+    "recipients": []
+  }
+]
