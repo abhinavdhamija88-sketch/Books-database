@@ -26,6 +26,6 @@ Pushes to main trigger the connected Netlify site. The address remains https://c
 
 ## Kids’ Books
 
-The Kids’ Books tab is a separate collection of 67 ordered children’s books, with author search, duplicate-title warnings, owner add/edit/delete, optional product links/notes, and independent export. Honeybee’s author is pending. It does not change reading statistics or require purchase dates or ratings. See KIDS_BOOKS_SETUP.md for the one-time SQL import and live verification; the module reuses the existing Supabase project and owner login.
+The Kids’ Books tab is a separate collection of 67 ordered children’s books, with author search, duplicate-title warnings, owner add/edit/delete, optional product links/notes, and independent export. The Honeybee credits Kirsten Hall and illustrator Isabelle Arsenault. It does not change reading statistics or require purchase dates or ratings. See KIDS_BOOKS_SETUP.md for the one-time SQL import and live verification; the module reuses the existing Supabase project and owner login.
 
 Run `npm run test:browser` with Chromium installed for browser regression checks using simulated Supabase responses.

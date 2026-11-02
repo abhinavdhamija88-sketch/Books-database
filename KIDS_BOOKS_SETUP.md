@@ -13,7 +13,7 @@ Rerunning the import preserves existing rows and owner edits. It can restore an 
 
 ## Validate the live app
 
-- Signed out: confirm 67 initial entries, alphabetical title ordering, author search, and Honeybee with blank author details. Opening a book should allow viewing, not editing.
+- Signed out: confirm 67 initial entries, alphabetical title ordering, author search, and The Honeybee credited to Kirsten Hall and illustrator Isabelle Arsenault. Opening a book should allow viewing, not editing.
 - Signed in as Pam: add a temporary kids’ book with author/notes. Refresh or open the kids tab in an incognito browser to confirm shared saving. Edit it, then delete the temporary record.
 - Try entering an existing title. The duplicate warning requires explicit confirmation to record another copy. It catches exact normalized title matches, not every possible spelling variation.
 - Confirm the Library tab still shows Pam’s reading collection and filters.
@@ -23,13 +23,13 @@ Database policies allow public reading and restrict all writes to accounts in th
 
 ## Data decisions
 
-The 67 entries follow the agreed spelling corrections and accepted likely author matches, which are not a newly verified catalog lookup. Honeybee’s author remains blank, with a pending note. Claris: Secret Ballet keeps an exact-title confirmation note. Little Star (You Are the Light) credits Lisa Edwards and illustrator Kat Kalindi. Team Supercrew is a single collection entry for now. Supplied Amazon links are stored as clean product URLs without tracking parameters.
+The 67 entries follow the agreed spelling corrections and accepted likely author matches, which are not a newly verified catalog lookup. The Honeybee credits Kirsten Hall and illustrator Isabelle Arsenault. Claris: Secret Ballet keeps an exact-title confirmation note. Little Star (You Are the Light) credits Lisa Edwards and illustrator Kat Kalindi. Team Supercrew is a single collection entry for now. Supplied Amazon links are stored as clean product URLs without tracking parameters.
 
 Kids’ books retain leading articles in their titles; sorting ignores A, An, and The. There are no ratings or purchase dates. Books belong to Pam’s shared collection rather than individual grandchildren. A reserved optional recipients array supports multiple names later, but there is no name assignment UI yet and all initial entries are unassigned. Editing a record preserves existing recipient values.
 
 ## Routine maintenance
 
-Pam uses Add book or opens a book to edit title, author, illustrator, optional Amazon link, and notes. Deleting requires confirmation. JSON export backs up this collection independently of the adult library. Updating Honeybee later needs only a normal owner edit; it does not require a deployment.
+Pam uses Add book or opens a book to edit title, author, illustrator, optional Amazon link, and notes. Deleting requires confirmation. JSON export backs up this collection independently of the adult library. Book metadata changes can be made by the owner without a deployment.
 
 ## Developer checks
 

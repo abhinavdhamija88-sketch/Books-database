@@ -85,7 +85,7 @@ insert into public.kids_books (id,title,author,illustrator,notes,amazon_url,reci
 ('kids-058','Silly Sally','Audrey Wood','','','','{}'),
 ('kids-059','Why We Need Aunts','Gregory E. Lang','','','','{}'),
 ('kids-060','Strega Nona','Tomie dePaola','','','','{}'),
-('kids-061','Honeybee','','','Author details pending.','','{}'),
+('kids-061','The Honeybee','Kirsten Hall','Isabelle Arsenault','','','{}'),
 ('kids-062','Eloise and Friends','Kay Thompson','','','https://www.amazon.com/dp/1481451588','{}'),
 ('kids-063','Olivia','Ian Falconer','','','','{}'),
 ('kids-064','Chrysanthemum','Kevin Henkes','','','','{}'),

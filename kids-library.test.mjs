@@ -3,9 +3,9 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {selectKidsBooks,duplicateKidsBooks,normalizeKidsTitle,safeBookUrl,validateKidsBook} from './kids-library.js';
 const books=JSON.parse(await readFile(new URL('./kids-books.json',import.meta.url)));
-test('67 kids entries retain confirmed details and Honeybee is pending',()=>{
+test('67 kids entries retain confirmed book and illustrator details',()=>{
  assert.equal(books.length,67);assert.equal(new Set(books.map(b=>b.id)).size,67);
- assert.equal(books.find(b=>b.title==='Honeybee').author,'');
+ const honeybee=books.find(b=>b.id==='kids-061');assert.equal(honeybee.title,'The Honeybee');assert.equal(honeybee.author,'Kirsten Hall');assert.equal(honeybee.illustrator,'Isabelle Arsenault');assert.equal(honeybee.notes,'');
  const star=books.find(b=>b.title==='Little Star (You Are the Light)');assert.equal(star.author,'Lisa Edwards');assert.equal(star.illustrator,'Kat Kalindi');
  assert.equal(books.find(b=>b.title==='Goodnight, Monkey').author,'Joshua George');
  assert.ok(books.every(b=>b.recipients.length===0));assert.ok(books.every(b=>!('rating' in b)&&!('year' in b)));

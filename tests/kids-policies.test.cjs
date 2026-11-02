@@ -12,7 +12,13 @@ test('kids database imports safely and only existing owners can change it',async
   await db.exec(migration);await db.exec(migration);
   assert.equal((await db.query('select count(*)::int as n from public.kids_books')).rows[0].n,67);
   assert.equal((await db.query('select count(*)::int as n from public.books')).rows[0].n,156);
-  assert.equal((await db.query("select author from public.kids_books where title='Honeybee'")).rows[0].author,'');
+  assert.equal((await db.query("select author from public.kids_books where title='The Honeybee'")).rows[0].author,'Kirsten Hall');
+  const honeybeeUpdate=readFileSync(join(__dirname,'../supabase/update-honeybee.sql'),'utf8');
+  await db.exec("update public.kids_books set title='Honeybee',author='',illustrator='',notes='Author details pending.' where id='kids-061'");
+  await db.exec(honeybeeUpdate);
+  assert.deepEqual((await db.query("select title,author,illustrator,notes from public.kids_books where id='kids-061'")).rows[0],{title:'The Honeybee',author:'Kirsten Hall',illustrator:'Isabelle Arsenault',notes:''});
+  await db.exec("update public.kids_books set notes='A gift note' where id='kids-061'");await db.exec(honeybeeUpdate);
+  assert.equal((await db.query("select notes from public.kids_books where id='kids-061'")).rows[0].notes,'A gift note');
   await db.exec("update public.kids_books set notes='Owner note' where id='kids-001'");await db.exec(migration);
   assert.equal((await db.query("select notes from public.kids_books where id='kids-001'")).rows[0].notes,'Owner note');
   await db.exec(`insert into public.library_owners values('00000000-0000-4000-8000-000000000001');set role anon;`);

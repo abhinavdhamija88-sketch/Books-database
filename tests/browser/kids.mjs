@@ -22,7 +22,7 @@ try{
  await demo.goto(base);await demo.waitForSelector('#books .book');assert.equal(await demo.locator('#books .book').count(),156);
  await demo.click('#kids-tab');await demo.waitForSelector('#kids-grid .book');assert.equal(await demo.locator('#kids-grid .book').count(),67);
  assert.equal(await demo.locator('#stats').isVisible(),false);assert.equal(await demo.locator('#kids-add').isVisible(),false);
- await demo.fill('#kids-search','honeybee');await demo.locator('#kids-grid .book').click();assert.equal(await demo.locator('#kids-author').inputValue(),'');assert.equal(await demo.locator('#kids-save').isVisible(),false);await demo.click('#kids-close');
+ await demo.fill('#kids-search','honeybee');await demo.locator('#kids-grid .book').click();assert.equal(await demo.locator('#kids-author').inputValue(),'Kirsten Hall');assert.equal(await demo.locator('#kids-save').isVisible(),false);await demo.click('#kids-close');
  await demo.click('#library-tab');assert.equal(await demo.locator('#books .book').count(),156);await demo.close();
  runBuild(true);
  const original=JSON.parse(await readFile(root+'kids-books.json','utf8'));
@@ -73,7 +73,7 @@ try{
  failKids=true;const brokenCtx=await context(),broken=await brokenCtx.newPage();await broken.goto(base+'/?shelf=kids');await broken.waitForSelector('#kids-retry:visible');assert.equal(await broken.locator('#kids-add').isVisible(),false);await broken.click('#library-tab');await broken.waitForSelector('#books .book');assert.equal(await broken.locator('#books .book').count(),156);failKids=false;await broken.click('#kids-tab');await broken.waitForSelector('#kids-grid .book');assert.equal(await broken.locator('#kids-grid .book').count(),67);
  allowOwner=false;const otherCtx=await context(),other=await otherCtx.newPage();await other.goto(base+'/?shelf=kids');await other.waitForSelector('#kids-grid .book');await other.click('#sign-in');await other.fill('#email','visitor@example.test');await other.fill('#password','not-a-real-password');await other.click('#login-submit');await other.waitForFunction(()=>document.querySelector('#login-error').textContent.includes('does not have owner'));assert.equal(await other.locator('#kids-add').isVisible(),false);
  assert.deepEqual(errors,[]);
- console.log('PASS: demo and shared kids tab, 67 imports, pending author, readonly visitors/nonowners, owner CRUD, duplicate warning, save failure, cross-browser data, future recipients preserved, adult regression, keyboard tabs, phone width, missing-table retry. Supabase responses were simulated.');
+ console.log('PASS: demo and shared kids tab, 67 imports, confirmed Honeybee details, readonly visitors/nonowners, owner CRUD, duplicate warning, save failure, cross-browser data, future recipients preserved, adult regression, keyboard tabs, phone width, missing-table retry. Supabase responses were simulated.');
 }finally{
  if(browser)await browser.close();if(server)server.kill();runBuild(false);
 }
